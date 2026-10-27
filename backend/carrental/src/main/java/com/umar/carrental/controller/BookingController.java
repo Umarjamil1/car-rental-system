@@ -57,6 +57,7 @@ public class BookingController {
 
         long days = ChronoUnit.DAYS.between(req.startDate(), req.endDate()) + 1;
 
+
         Booking booking = new Booking();
         booking.setUser(user);
         booking.setCar(car);
